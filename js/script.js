@@ -1,6 +1,6 @@
 var nomeUtente;
 var cognomeUtente;
-var annoNascitaUtente;
+var coloreUtente;
 nomeUtente = prompt('il tuo nome?');
 cognomeUtente = prompt('il tuo cognome?');
 coloreUtente = prompt('il tuo colore preferito?');
