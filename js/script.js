@@ -1,0 +1,10 @@
+var nomeUtente;
+var cognomeUtente;
+var annoNascitaUtente;
+nomeUtente = prompt('il tuo nome?');
+cognomeUtente = prompt('il tuo cognome?');
+coloreUtente = prompt('il tuo colore preferito?');
+document.getElementById('nome').innerHTML = nomeUtente;
+document.getElementById('cognome').innerHTML = cognomeUtente;
+document.getElementById('colore').innerHTML = coloreUtente;
+document.getElementById('password').innerHTML = nomeUtente + cognomeUtente + coloreUtente + "19";
